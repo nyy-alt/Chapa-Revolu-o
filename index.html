@@ -75,17 +75,27 @@
     @media(max-width:760px){.nav-wrap{min-height:70px}.menu-toggle{display:block}nav{display:none;position:absolute;top:69px;left:0;right:0;padding:18px 4%;background:#10091d;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start;gap:17px}nav.open{display:flex}.hero{padding:58px 0 45px}.hero-grid{grid-template-columns:1fr;gap:18px}.phoenix-wrap{min-height:250px;grid-row:1}.phoenix{width:min(72%,300px)}.hero-copy{grid-row:2}.meaning,.voice{grid-template-columns:1fr}.meaning-btn{justify-self:start}.cards{grid-template-columns:1fr}.transparency{grid-template-columns:1fr}section{padding:56px 0}.brand img{width:44px;height:44px}.brand-name{font-size:1rem}}
     @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
 .instagram-link {
-  display: inline-block;
-  margin-top: 12px;
-  color: #e879f9;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 18px;
+  padding: 13px 24px;
+  border: 1px solid #a855f7;
+  border-radius: 50px;
+  background: linear-gradient(135deg, #2e1065, #7e22ce);
+  color: #ffffff;
+  font-size: 15px;
   font-weight: bold;
   text-decoration: none;
-  transition: 0.3s;
+  box-shadow: 0 0 15px #8b5cf655;
+  transition: all 0.3s ease;
 }
 
 .instagram-link:hover {
-  color: #ffffff;
-  text-shadow: 0 0 12px #a855f7;
+  transform: translateY(-3px);
+  background: linear-gradient(135deg, #7e22ce, #a855f7);
+  box-shadow: 0 0 25px #a855f788;
 }
   </style>
 </head>
@@ -111,9 +121,14 @@
           <span class="eyebrow">✦ Uma escola feita por todos</span>
           <h1>CHAPA <span>REVOLUÇÃO</span></h1>
           <div class="number-tag">✦ CHAPA NÚMERO 7 ✦</div>
-          <a class="instagram-link" href="https://www.instagram.com/revolucao.ofc_/" target="_blank">
-  📸 Instagram: @revolucao.ofc_
-          </a>
+<a
+  class="instagram-link"
+  href="https://www.instagram.com/revolucao.ofc_/"
+  target="_blank"
+>
+  📸 Instagram da Chapa 7
+  <span>@revolucao.ofc_ ↗</span>
+</a>
           <div class="slogan">Sua voz, suas ideias, nossa revolução.</div>
           <p>Mais participação, mais cultura e mais espaço para as ideias dos estudantes saírem do papel. A mudança começa quando todo mundo tem voz.</p>
           <div class="actions"><a class="btn btn-primary" href="#propostas">✦ Conheça as propostas</a><a class="btn btn-secondary" href="#significado">Conheça nossa história ↗</a></div>
